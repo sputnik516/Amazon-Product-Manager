@@ -31,8 +31,8 @@ if __name__ == '__main__':
 
     entry_date = datetime.datetime.now()
 
-    plist = plc.PriceListCleanUp(raw_file_name = 'Proforce.csv',
-                                raw_data_folder= 'C:\\Users\sputnik516\\Google Drive\\Coding\\BodShellMgrv2.0\\RawPriceLists\\',
+    plist = plc.PriceListCleanUp(raw_file_name = '***enter file name***',
+                                raw_data_folder= '***enter folder address***',
                                 SupplierID= 5366260,
                                 current_as_of_date= datetime.date(2016,11,9),
                                 entry_date= entry_date)
